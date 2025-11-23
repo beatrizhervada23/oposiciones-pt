@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 3 - Identificación y valoración de las NEE</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">
+        <span class="theme-icon">🌙</span>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="back-link">← Volver al inicio</a>
+            <h1>TEMA 3</h1>
+            <p class="subtitle">El proceso de identificación y valoración de las necesidades educativas especiales</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'contenido')">📄 Contenido</button>
+            <button class="tab-button" onclick="openTab(event, 'esquemas')">🗂️ Esquemas</button>
+            <button class="tab-button" onclick="openTab(event, 'preguntas')">❓ Preguntas</button>
+            <button class="tab-button" onclick="openTab(event, 'simulacro')">⏱️ Simulacro</button>
+            <button class="tab-button" onclick="openTab(event, 'legislacion')">📚 Legislación</button>
+        </div>
+
+        <!-- TAB: CONTENIDO -->
+        <div id="contenido" class="tab-content active">
+            <div class="content-section">
+                <h2>INTRODUCCIÓN</h2>
+                <p>El proceso de identificación y valoración de las necesidades educativas especiales constituye el punto de partida para proporcionar una respuesta educativa adecuada y ajustada a las características individuales del alumnado, en consonancia con el Objetivo de Desarrollo Sostenible 4 de la Agenda 2030 que busca alcanzar un sistema educativo inclusivo, equitativo y de calidad.</p>
+                
+                <p>El presente tema constituye la base procedimental para los temas 14, 16, 18 y 20, que desarrollan las características específicas del alumnado con discapacidad auditiva, visual, motora e intelectual, respectivamente, siendo la evaluación psicopedagógica el instrumento que permite determinar las necesidades particulares de cada tipo de discapacidad.</p>
+                
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Una vez establecido el marco general, pasamos a analizar en profundidad el proceso de identificación y valoración de las necesidades educativas especiales.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>1. EL PROCESO DE IDENTIFICACIÓN Y VALORACIÓN DE LAS NEE Y SU RELACIÓN CON EL CURRÍCULO</h2>
+                
+                <p>El concepto de Necesidades Educativas Especiales se popularizó por primera vez en el Informe Warnock de 1978, suponiendo un cambio de paradigma al dejar de centrarse en la discapacidad para atender a las necesidades particulares de acceso a una educación de calidad. La LOE-LOMLOE, en su artículo 73, define al alumnado con NEE como "aquel que afronta barreras que limitan su acceso, presencia, participación o aprendizaje, derivadas de discapacidad o de trastornos graves de conducta, de la comunicación y del lenguaje, por un periodo de su escolarización o a lo largo de toda ella, y que requiere determinados apoyos y atenciones educativas específicas para la consecución de los objetivos de aprendizaje adecuados a su desarrollo".</p>
+
+                <p>Esta definición incorpora el enfoque de "barreras al aprendizaje y la participación" de Booth y Ainscow (2000). El artículo 5 del Decreto 23/2023 define estas barreras como "las dificultades existentes en el centro escolar que condicionan las posibilidades del alumnado para aprender, estar presente y participar", pudiendo estar provocadas por la organización del centro, las prácticas educativas, las condiciones individuales del alumno u otras circunstancias.</p>
+
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Para identificar estas barreras y determinar las necesidades educativas del alumnado, el instrumento fundamental es la evaluación psicopedagógica.</p>
+                </div>
+
+                <h3>1.1. La evaluación psicopedagógica</h3>
+                
+                <p>El artículo 74 de la LOE-LOMLOE establece que la identificación y valoración de las necesidades educativas se realizará lo más tempranamente posible por profesionales especialistas. La primera detección suele realizarse en el seno familiar o desde los servicios de pediatría. Una vez comienza la escolarización, el equipo docente puede observar el desarrollo del alumno y poner en marcha medidas educativas ordinarias que, en el caso de no ser suficientes, se procederá a la derivación para realizar una evaluación psicopedagógica, siempre informando previamente a la familia para solicitar su consentimiento.</p>
+
+                <p>La Ley 1/2022, en su artículo 21, establece que la evaluación psicopedagógica tiene como objetivo principal "la identificación de las necesidades educativas del alumnado y fundamentar la respuesta educativa más adecuada, incluyendo la recogida, análisis y valoración de toda la información relevante referida al alumno, a su contexto familiar, escolar y social".</p>
+
+                <div class="info-box">
+                    <h4>📊 Ámbitos de la evaluación psicopedagógica:</h4>
+                    <ul>
+                        <li><strong>Cognitivo:</strong> Capacidades intelectuales, atención, memoria y razonamiento</li>
+                        <li><strong>Comunicativo-lingüístico:</strong> Comprensión y expresión oral y escrita</li>
+                        <li><strong>Motor:</strong> Motricidad gruesa, fina y coordinación</li>
+                        <li><strong>Socioafectivo:</strong> Autoconcepto, autoestima, habilidades sociales y adaptación</li>
+                        <li><strong>Competencia curricular:</strong> Nivel de aprendizajes adquiridos</li>
+                        <li><strong>Estilo de aprendizaje:</strong> Motivación, estrategias y condiciones óptimas</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h4>🔧 Técnicas e instrumentos de recogida:</h4>
+                    <ul>
+                        <li>Observación sistemática en diferentes contextos</li>
+                        <li>Entrevistas con familia y equipo docente</li>
+                        <li>Pruebas estandarizadas y criteriales</li>
+                        <li>Análisis de producciones del alumno</li>
+                    </ul>
+                </div>
+
+                <p>La elaboración de la evaluación psicopedagógica será prescriptiva para alumnado con NEE derivadas de discapacidad intelectual, motora, auditiva y visual, trastorno del espectro autista, trastornos específicos del lenguaje que afecten a la comprensión y expresión, trastornos graves de conducta, pluridiscapacidad y retraso general del desarrollo en menores de cinco años, así como para alumnado con NEAE asociadas a altas capacidades intelectuales, retraso madurativo y dificultades de aprendizaje por trastornos del desarrollo del lenguaje y la comunicación, trastorno de atención o trastorno de aprendizaje.</p>
+
+                <p>La elaboración de dicha evaluación es competencia del profesorado funcionario de la especialidad de orientación educativa según el artículo 6 del Decreto 23/2023. El orientador coordina el proceso contando con la participación esencial del tutor, los maestros especialistas de PT y AL que trabajan con el alumno, otros profesionales que intervienen en su atención educativa y la familia, cuya colaboración resulta fundamental para que la evaluación sea objetiva y completa.</p>
+
+                <p>Las conclusiones se recogerán en un informe psicopedagógico, elaborado conforme al modelo del anexo I del Decreto 23/2023, que se adjuntará al expediente académico e incluirá: datos de identificación del alumno y del proceso de evaluación, información relevante sobre su historia personal y escolar, identificación de las barreras para el aprendizaje y la participación, determinación de las necesidades educativas, propuesta de respuesta educativa mediante medidas ordinarias y específicas, propuesta de modalidad de escolarización, orientaciones para el contexto escolar y familiar, y propuesta de revisión de la evaluación psicopedagógica.</p>
+
+                <p>Cuando se consideren necesarios recursos extraordinarios de profesorado especialista, recursos materiales o de infraestructuras no generalizables, se redactará un dictamen de escolarización.</p>
+
+                <p>Es preciso destacar que la evaluación psicopedagógica no es un diagnóstico clínico y tiene como referente el currículo, definido en el artículo 6 de la LOE-LOMLOE como el conjunto de objetivos, competencias, contenidos, métodos pedagógicos y criterios de evaluación.</p>
+
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Una vez identificadas las necesidades educativas mediante la evaluación psicopedagógica, es imprescindible analizar cómo se articula la respuesta educativa en relación con el currículo.</p>
+                </div>
+
+                <h3>1.2. Relación con el currículo</h3>
+                
+                <p>El actual currículo permite su adecuación a las necesidades educativas al concretarse progresivamente mediante niveles de concreción curricular que son, de menor a mayor concreción:</p>
+
+                <ul>
+                    <li>El Diseño Curricular Prescriptivo conformado por Reales Decretos de enseñanzas mínimas y Decretos autonómicos</li>
+                    <li>El Proyecto Educativo y las Programaciones Didácticas que adecúan los documentos oficiales a las características del alumnado del centro</li>
+                    <li>La Programación de Aula que adapta lo anterior a las características del alumnado del aula</li>
+                    <li>Las Adaptaciones Curriculares como elemento fundamental para la individualización de la enseñanza</li>
+                </ul>
+
+                <p>El Diseño Universal para el Aprendizaje (DUA) proporciona un marco para eliminar barreras desde el diseño curricular, ofreciendo múltiples formas de representación de la información, de expresión del aprendizaje y de implicación y motivación. Las situaciones de aprendizaje, elemento nuclear del currículo LOMLOE, deben diseñarse desde esta perspectiva inclusiva, permitiendo que todo el alumnado pueda acceder, participar y progresar en su aprendizaje.</p>
+
+                <p>La determinación de medidas de atención a las diferencias individuales en los niveles de concreción es un paso imprescindible para adaptar el currículo a dichas diferencias, consiguiendo así una enseñanza equitativa.</p>
+
+                <div class="info-box">
+                    <h4>📋 Medidas de atención según Decreto 23/2023:</h4>
+                    <p><strong>Medidas ordinarias</strong> (sin modificar elementos prescriptivos):</p>
+                    <ul>
+                        <li>Organización flexible de espacios y tiempos</li>
+                        <li>Adecuación de la programación con actividades diversas</li>
+                        <li>Medidas de acceso al contexto escolar</li>
+                    </ul>
+                    <p><strong>Medidas específicas</strong> (individuales para ACNEE):</p>
+                    <ul>
+                        <li>Adaptaciones curriculares (significativas si abarcan ciclos/cursos anteriores)</li>
+                        <li>Apoyo específico de PT y AL</li>
+                        <li>Medidas específicas de acceso (recursos de difícil generalización)</li>
+                        <li>Flexibilización de enseñanzas (+1 año en Infantil y enseñanza básica)</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Tras determinar las necesidades educativas y las medidas de respuesta curricular, el siguiente paso es la toma de decisiones sobre la modalidad de escolarización más adecuada.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>2. DECISIONES DE ESCOLARIZACIÓN</h2>
+                
+                <p>La escolarización del alumnado con NEE busca su máximo desarrollo personal, plena inclusión y una enseñanza de calidad, actuando según los principios de libertad de elección, normalización e inclusión, no discriminación, información a las familias e igualdad de acceso recogidos en el artículo 11 de la Ley 1/2022.</p>
+
+                <h3>2.1. El Dictamen de escolarización</h3>
+                
+                <p>Cuando la evaluación psicopedagógica determine la necesidad de recursos personales extraordinarios, recursos materiales específicos o una modalidad diferente a la ordinaria, se redactará el dictamen de escolarización según el anexo II del Decreto 23/2023.</p>
+
+                <p>El dictamen es elaborado por el orientador, incluyendo la propuesta de modalidad de escolarización, los recursos necesarios y orientaciones sobre la respuesta educativa. Tiene carácter prescriptivo, pero no definitivo, siendo revisable cuando las circunstancias varíen o cada dos cursos académicos. Se envía al Servicio de Inspección Educativa para su resolución, que será notificada a la familia, quien puede solicitar su revisión si no está de acuerdo.</p>
+
+                <h3>2.2. Criterios y modalidades de escolarización</h3>
+                
+                <p>Según la Ley 1/2022 y el Decreto 23/2023, existen tres modalidades:</p>
+
+                <div class="info-box">
+                    <ul>
+                        <li><strong>Modalidad ordinaria:</strong> Escolarización en centros ordinarios, pudiendo flexibilizarse un año más por etapa. Cuando se requieran recursos específicos, el alumno puede escolarizarse en centros de atención preferente (discapacidad auditiva, TEA o motora) con profesionales y recursos especializados.</li>
+                        
+                        <li><strong>Modalidad especial:</strong> En centros de educación especial cuando se necesiten modificaciones significativas del currículo y apoyos que no puedan facilitar los centros ordinarios. La escolarización puede prolongarse hasta los veintiún años. También existen Unidades de Educación Especial en centros ordinarios para alumnado que requiera respuesta especializada, pero disponga de autonomía mínima que facilite su inclusión.</li>
+                        
+                        <li><strong>Modalidad combinada:</strong> Entre un centro de Educación Especial y uno ordinario, determinada por el nivel de autonomía y competencia personal y social del alumnado.</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Una vez determinada la modalidad de escolarización y puestas en marcha las medidas de respuesta educativa, resulta esencial evaluar tanto el proceso de enseñanza como el de aprendizaje para garantizar su adecuación.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>3. LA EVALUACIÓN DEL PROCESO EDUCATIVO Y CRITERIOS DE PROMOCIÓN</h2>
+                
+                <p>La evaluación educativa tiene como objetivo mejorar el proceso de enseñanza-aprendizaje y orientar la toma de decisiones. Al inicio de curso se realiza una evaluación inicial que permite identificar el nivel competencial, las dificultades y las necesidades educativas.</p>
+
+                <h3>3.1. Evaluación del proceso de aprendizaje</h3>
+                
+                <p>La evaluación del aprendizaje será global, continua, formativa e integradora según las Órdenes 460/2023 (Infantil), 130/2023 (Primaria) y 1712/2023 (ESO). Consistirá en la valoración del desarrollo de competencias específicas mediante criterios de evaluación y la adquisición de competencias clave (Decretos 36/2022, 61/2022 y 65/2022).</p>
+
+                <p>El carácter formativo cobra especial relevancia para el ACNEE, permitiendo ajustar continuamente la respuesta educativa. Se deben utilizar instrumentos variados y adaptados: rúbricas adaptadas, portfolios que recojan la evolución, escalas de observación, registros anecdóticos, y cuando sea posible, autoevaluación y coevaluación que favorezcan la autorregulación. El tutor informará a las familias sobre los resultados.</p>
+
+                <p>El artículo 24 de la Ley 1/2022 establece que la evaluación del ACNEE es continua, global, formativa, participativa y orientadora, siendo los elementos de su Adaptación Curricular los referentes para conocer su progreso sin que puedan impedirle la promoción o titulación (Decreto 23/2023). La Orden 2808/2023 propone la observación directa y sistemática como técnica principal.</p>
+
+                <h3>3.2. Evaluación del proceso de enseñanza</h3>
+                
+                <p>La calidad de la enseñanza va en paralelo a la del aprendizaje (Casanova, 2006), evaluándose simultáneamente en dos niveles: a nivel de centro (adecuación de elementos curriculares y medidas de atención a la diversidad) y a nivel de aula (práctica docente: distribución de contenidos, actividades, métodos pedagógicos, organización de espacios y tiempos, medidas individualizadas, colaboración familiar, coordinación docente e instrumentos de evaluación).</p>
+
+                <h3>3.3. Criterios de promoción y titulación</h3>
+                
+                <p>Las decisiones de promoción deben considerar el informe psicopedagógico actualizado, priorizando el desarrollo integral y la socialización. La permanencia extraordinaria es siempre excepcional:</p>
+
+                <ul>
+                    <li><strong>En Educación Infantil:</strong> puede prolongarse un año más cuando favorezca significativamente la consecución de objetivos según la Orden 1190/2021.</li>
+                    
+                    <li><strong>En Primaria:</strong> la no promoción solo se adopta una vez, pudiendo el ACNEE hacerlo excepcionalmente una segunda tras sexto curso.</li>
+                    
+                    <li><strong>En ESO:</strong> se repite el mismo curso una vez y máximo dos en la etapa. El ACNEE puede prorrogar un año más si no se aplicó en Primaria. Puede obtener el título cuando el equipo docente considere alcanzados los objetivos y competencias clave.</li>
+                    
+                    <li><strong>En modalidad especial:</strong> el tiempo se flexibiliza según necesidades, pudiendo permanecer hasta los 22 años en Talleres Formativos.</li>
+                </ul>
+
+                <div class="highlight-box">
+                    <p><strong>Transición:</strong> Tras analizar el proceso completo desde la identificación hasta la evaluación y promoción, conviene realizar una reflexión final sobre el papel del maestro de PT en este proceso y los retos actuales.</p>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>CONCLUSIÓN</h2>
+                
+                <p>Como maestros especialistas en PT, somos recursos personales que posibilitamos la respuesta educativa adecuada dentro de una educación inclusiva. Nuestra función no debe centrarse únicamente en ofrecer respuesta directa al ACNEE sino también en ser recurso para el centro orientando y trabajando coordinadamente con todos los profesionales y con la participación de las familias.</p>
+
+                <p>En el proceso descrito en este tema, nuestra función es esencial como asesores del orientador, aportando información valiosa en el establecimiento de necesidades y la toma de decisiones, al trabajar directamente con los alumnos y conocer en profundidad sus potencialidades y necesidades de apoyo.</p>
+
+                <p>Solo desde la calidad educativa y el compromiso con la equidad se podrá hacer efectivo el mandato del artículo 27.2 de la Constitución Española: "La educación tendrá por objeto el pleno desarrollo de la personalidad humana, en el respeto a los principios democráticos de convivencia y a los derechos y libertades fundamentales".</p>
+            </div>
+        </div>
+
+        <!-- TAB: ESQUEMAS -->
+        <div id="esquemas" class="tab-content">
+            <div class="content-section">
+                <h2>📊 Esquemas Visuales del Tema</h2>
+                
+                <div class="collapsible-section">
+                    <button class="collapsible-btn" onclick="toggleCollapsible(this)">
+                        <span class="toggle-icon">▶</span> Estructura General del Tema
+                    </button>
+                    <div class="collapsible-content">
+                        <pre class="schema-box">
+TEMA 3: IDENTIFICACIÓN, VALORACIÓN, ESCOLARIZACIÓN Y EVALUACIÓN NEE
+
+├─ INTRODUCCIÓN
+│  └─ Marco: ODS 4, base para temas 14-16-18-20
+│
+├─ 1. IDENTIFICACIÓN Y VALORACIÓN + CURRÍCULO
+│  │
+│  ├─ 1.1 EVALUACIÓN PSICOPEDAGÓGICA ⭐⭐⭐
+│  │   ├─ Marco legal: Art. 74 LOE-LOMLOE, Ley 1/2022, Decreto 23/2023
+│  │   ├─ Ámbitos (6): Cognitivo, Comunicativo, Motor, 
+│  │   │                Socioafectivo, Competencia curricular, Estilo
+│  │   ├─ Técnicas: Observación, Entrevistas, Pruebas, Análisis
+│  │   ├─ Responsables: Orientador + Tutor + PT/AL + Familia
+│  │   ├─ Producto: INFORME PSICOPEDAGÓGICO (Anexo I)
+│  │   └─ Si recursos extraordinarios → DICTAMEN
+│  │
+│  └─ 1.2 RELACIÓN CON EL CURRÍCULO
+│      ├─ Niveles concreción (4): Prescriptivo → PE/PD → PA → AC
+│      ├─ DUA: 3 principios (representación, expresión, motivación)
+│      └─ Medidas: ORDINARIAS / ESPECÍFICAS
+│
+├─ 2. DECISIONES DE ESCOLARIZACIÓN
+│  │
+│  ├─ 2.1 DICTAMEN DE ESCOLARIZACIÓN
+│  │   • Elabora: Orientador (Anexo II)
+│  │   • Resuelve: Inspección Educativa
+│  │   • Carácter: Prescriptivo pero revisable (cada 2 años)
+│  │
+│  └─ 2.2 MODALIDADES (3)
+│      • ORDINARIA (+ centros atención preferente)
+│      • ESPECIAL (CEE o UEE) hasta 21 años
+│      • COMBINADA
+│
+└─ 3. EVALUACIÓN Y PROMOCIÓN
+   │
+   ├─ 3.1 EVALUACIÓN APRENDIZAJE
+   │   • Características: Global, continua, formativa, integradora
+   │   • Instrumentos: Rúbricas, portfolios, observación, registros
+   │   • Referente ACNEE: Elementos de su AC
+   │
+   ├─ 3.2 EVALUACIÓN ENSEÑANZA
+   │   • Nivel centro: Elementos curriculares
+   │   • Nivel aula: Práctica docente
+   │
+   └─ 3.3 PROMOCIÓN Y TITULACIÓN
+       • Infantil: +1 año excepcional
+       • Primaria: No promoción 1 vez (ACNEE: 2ª tras 6º)
+       • ESO: Repetir 1 vez/curso, máx 2/etapa
+       • Especial: Hasta 22 años
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="collapsible-section">
+                    <button class="collapsible-btn" onclick="toggleCollapsible(this)">
+                        <span class="toggle-icon">▶</span> Evaluación Psicopedagógica (Detallada)
+                    </button>
+                    <div class="collapsible-content">
+                        <pre class="schema-box">
+EVALUACIÓN PSICOPEDAGÓGICA
+
+MARCO LEGAL:
+├─ Art. 74 LOE-LOMLOE: Identificación temprana
+├─ Ley 1/2022, art. 21: Objetivo de la evaluación
+├─ Decreto 23/2023, art. 6: Competencia orientadores
+└─ Anexo I Decreto 23/2023: Modelo informe
+
+ÁMBITOS EXPLORADOS (nemotecnia: "COCO ME SALVA"):
+├─ COgnitivo: Capacidades, atención, memoria, razonamiento
+├─ COmunicativo-lingüístico: Comprensión/expresión oral/escrita
+├─ Motor: Motricidad gruesa, fina, coordinación
+├─ socioafEctivo: Autoconcepto, autoestima, HHSS, adaptación
+├─ Competencia Curricular: Nivel de aprendizajes
+└─ estilo de Aprendizaje: Motivación, estrategias, condiciones
+
+TÉCNICAS E INSTRUMENTOS (nemotecnia: "OEPA"):
+├─ Observación sistemática (contextos variados)
+├─ Entrevistas (familia + equipo docente)
+├─ Pruebas estandarizadas y criteriales
+└─ Análisis de producciones del alumno
+
+PROFESIONALES IMPLICADOS:
+├─ ORIENTADOR ← Coordina el proceso
+├─ Tutor → Información contexto aula
+├─ PT/AL → Información específica de apoyos
+├─ Otros profesionales → Fisio, PTSC, etc.
+└─ FAMILIA → Información contexto familiar (ESENCIAL)
+
+PRODUCTOS:
+├─ INFORME PSICOPEDAGÓGICO (Anexo I)
+│   ├─ Datos identificación
+│   ├─ Historia personal/escolar
+│   ├─ Identificación barreras
+│   ├─ Determinación NEE
+│   ├─ Propuesta medidas (ordinarias/específicas)
+│   ├─ Propuesta modalidad escolarización
+│   ├─ Orientaciones (centro/familia)
+│   └─ Propuesta revisión
+│
+└─ DICTAMEN ESCOLARIZACIÓN (si recursos extraordinarios)
+    └─ Anexo II del Decreto 23/2023
+                        </pre>
+                    </div>
+                </div>
+
+                <div class="collapsible-section">
+                    <button class="collapsible-btn" onclick="toggleCollapsible(this)">
+                        <span class="toggle-icon">▶</span> Datos Numéricos Clave
+                    </button>
+                    <div class="collapsible-content">
+                        <div class="info-box">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Concepto</th>
+                                        <th>Número</th>
+                                        <th>Recordatorio</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ámbitos evaluación psicopedagógica</td>
+                                        <td><strong>6</strong></td>
+                                        <td>COCO ME SALVA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Técnicas recogida información</td>
+                                        <td><strong>4</strong></td>
+                                        <td>OEPA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Niveles concreción curricular</td>
+                                        <td><strong>4</strong></td>
+                                        <td>Macro → Micro</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Principios DUA</td>
+                                        <td><strong>3</strong></td>
+                                        <td>Representación, Expresión, Motivación</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Modalidades escolarización</td>
+                                        <td><strong>3</strong></td>
+                                        <td>Ordinaria, Especial, Combinada</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Edad máxima EE</td>
+                                        <td><strong>21-22 años</strong></td>
+                                        <td>21 general, 22 Talleres</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revisión dictamen</td>
+                                        <td><strong>Cada 2 años</strong></td>
+                                        <td>Bienal</td>
+                                    </tr>
+                                    <tr>
+                                        <td>No promoción Primaria</td>
+                                        <td><strong>1 vez</strong></td>
+                                        <td>ACNEE: 2ª excepcional</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Repetir ESO</td>
+                                        <td><strong>1/curso, máx 2/etapa</strong></td>
+                                        <td>ACNEE: +1 año</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: PREGUNTAS -->
+        <div id="preguntas" class="tab-content">
+            <div class="content-section">
+                <h2>❓ Preguntas de Autocomprobación</h2>
+                
+                <h3>NIVEL BÁSICO (Comprensión)</h3>
+                
+                <div class="question-card">
+                    <div class="question-text">1. ¿Qué norma define el concepto de NEE basado en barreras?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">LOE-LOMLOE (art. 73) y Decreto 23/2023</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">2. ¿Quién coordina la evaluación psicopedagógica?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">El orientador educativo (profesorado funcionario de la especialidad de orientación educativa)</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">3. ¿Cuántas modalidades de escolarización existen?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Tres: ordinaria, especial y combinada</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">4. ¿Qué documento se elabora si se necesitan recursos extraordinarios?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">El dictamen de escolarización (Anexo II del Decreto 23/2023)</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">5. ¿Hasta qué edad puede prolongarse la escolarización en Educación Especial?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Hasta los 21 años (22 en Talleres Formativos)</div>
+                </div>
+
+                <h3>NIVEL INTERMEDIO (Aplicación)</h3>
+
+                <div class="question-card">
+                    <div class="question-text">1. Un alumno de 3º de Primaria con discapacidad motora necesita un fisioterapeuta que no hay en su centro ordinario. ¿Qué documento debe elaborarse y quién lo resuelve?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Debe elaborarse un dictamen de escolarización (elaborado por el orientador) y será resuelto por el Servicio de Inspección Educativa.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">2. ¿En qué ámbito de la evaluación psicopedagógica se valorarían las dificultades de lectoescritura?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Principalmente en el ámbito comunicativo-lingüístico (comprensión y expresión escrita) y también en la competencia curricular.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">3. Un ACNEE ha repetido una vez en Primaria. ¿Puede repetir en ESO?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Sí, puede repetir hasta 2 veces en la etapa de ESO (1 vez por curso). Además, podría prorrogar un año más si no lo hizo en Primaria y favorece la titulación.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">4. ¿Qué diferencia hay entre medidas ordinarias y específicas?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Medidas ordinarias: no modifican elementos prescriptivos del currículo (organización, metodologías, agrupamientos). Medidas específicas: pueden modificar contenidos y criterios de evaluación (adaptaciones curriculares significativas), incluyen apoyo especializado.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">5. ¿Qué principio del DUA se relaciona con ofrecer varias formas de mostrar lo aprendido?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Principio de Expresión (múltiples formas de expresión del aprendizaje)</div>
+                </div>
+
+                <h3>NIVEL AVANZADO (Síntesis)</h3>
+
+                <div class="question-card">
+                    <div class="question-text">1. Explica el recorrido completo desde que un tutor detecta dificultades hasta que se elabora una AC significativa.</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Detección por tutor → Aplicación de medidas ordinarias → Si son insuficientes: derivación a orientación → Información y autorización de la familia → Evaluación psicopedagógica (orientador coordina, participa tutor, PT/AL, familia) → Informe psicopedagógico → Propuesta de medidas específicas → Elaboración de AC significativa (si procede) → Seguimiento y revisión.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">2. ¿Por qué la evaluación psicopedagógica NO es un diagnóstico clínico? ¿Cuál es su referente?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">Porque su objetivo no es etiquetar o diagnosticar médicamente, sino identificar necesidades educativas y proponer la respuesta educativa más adecuada. Su referente es el CURRÍCULO (objetivos, competencias, contenidos, métodos pedagógicos y criterios de evaluación), no criterios clínicos.</div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-text">3. ¿Cómo se relaciona el tema 3 con los temas 14, 16, 18 y 20?</div>
+                    <button class="show-answer-btn" onclick="toggleAnswer(this)">Ver respuesta</button>
+                    <div class="answer-text">El tema 3 establece el PROCESO general (cómo se identifica y valora las NEE mediante la evaluación psicopedagógica, cómo se escolariza y evalúa). Los temas 14 (auditiva), 16 (visual), 18 (motora) y 20 (intelectual) desarrollan las CARACTERÍSTICAS ESPECÍFICAS de cada discapacidad que se identificarían aplicando ese proceso general.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: SIMULACRO -->
+        <div id="simulacro" class="tab-content">
+            <div class="content-section">
+                <h2>⏱️ Simulacro de Examen</h2>
+                
+                <div class="info-box">
+                    <h3>Instrucciones:</h3>
+                    <p>Tienes <strong>2 horas</strong> para escribir el tema completo. El objetivo es que practiques la escritura cronometrada como en el examen real.</p>
+                    <ul>
+                        <li>Objetivo: 8-10 páginas (Arial 12, interlineado 1.5)</li>
+                        <li>Incluye: Introducción, desarrollo de los 3 apartados, conclusión y referencias</li>
+                        <li>Usa las transiciones entre apartados</li>
+                        <li>Cita la legislación de forma abreviada</li>
+                    </ul>
+                </div>
+
+                <div class="timer-section">
+                    <div class="timer-display">
+                        <div class="timer-number" id="timer">02:00:00</div>
+                        <div class="timer-controls">
+                            <button class="btn-primary" onclick="startTimer()">▶️ Iniciar</button>
+                            <button class="btn-secondary" onclick="pauseTimer()">⏸️ Pausar</button>
+                            <button class="btn-secondary" onclick="resetTimer()">🔄 Reiniciar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <h3>📝 Lista de verificación (después de escribir):</h3>
+                    <ul class="checklist">
+                        <li><input type="checkbox"> Introducción con ODS 4 y relación con otros temas</li>
+                        <li><input type="checkbox"> Transiciones entre apartados</li>
+                        <li><input type="checkbox"> 1.1 Evaluación psicopedagógica: 6 ámbitos + 4 técnicas + responsables + informe</li>
+                        <li><input type="checkbox"> 1.2 Relación currículo: 4 niveles concreción + DUA + medidas</li>
+                        <li><input type="checkbox"> 2.1 Dictamen: elaboración, resolución, revisión</li>
+                        <li><input type="checkbox"> 2.2 Modalidades: 3 tipos bien explicadas</li>
+                        <li><input type="checkbox"> 3.1 Evaluación aprendizaje: características + instrumentos</li>
+                        <li><input type="checkbox"> 3.2 Evaluación enseñanza: 2 niveles</li>
+                        <li><input type="checkbox"> 3.3 Promoción: criterios por etapas</li>
+                        <li><input type="checkbox"> Conclusión: rol PT + reflexión + cita Constitución</li>
+                        <li><input type="checkbox"> Referencias legislativas (completas en APA 7ª)</li>
+                        <li><input type="checkbox"> 3 referencias bibliográficas en APA 7ª</li>
+                    </ul>
+                </div>
+
+                <div class="warning-box">
+                    <h4>⚠️ Errores comunes a evitar:</h4>
+                    <ul>
+                        <li>❌ Olvidar las transiciones entre apartados</li>
+                        <li>❌ No mencionar el DUA en relación con el currículo</li>
+                        <li>❌ Confundir informe psicopedagógico con dictamen</li>
+                        <li>❌ No diferenciar bien medidas ordinarias de específicas</li>
+                        <li>❌ Olvidar que la evaluación psicopedagógica NO es diagnóstico clínico</li>
+                        <li>❌ No incluir los instrumentos de evaluación adaptados</li>
+                        <li>❌ Repetir nombres completos de leyes (usar abreviaturas)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: LEGISLACIÓN -->
+        <div id="legislacion" class="tab-content">
+            <div class="content-section">
+                <h2>📚 Referencias Legislativas y Bibliográficas</h2>
+                
+                <h3>LEGISLACIÓN</h3>
+                
+                <div class="legislation-box">
+                    <p>Decreto 23/2023, de 22 de marzo, del Consejo de Gobierno, por el que se regula la atención educativa a las diferencias individuales del alumnado en la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 75, de 30 de marzo de 2023. https://www.bocm.es</p>
+
+                    <p>Decreto 36/2022, de 8 de junio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid la ordenación y el currículo de la etapa de Educación Infantil. <em>Boletín Oficial de la Comunidad de Madrid</em>, 134, de 7 de junio de 2022. https://www.bocm.es</p>
+
+                    <p>Decreto 61/2022, de 13 de julio, del Consejo de Gobierno, por el que se establece para la Comunidad de Madrid la ordenación y el currículo de la etapa de Educación Primaria. <em>Boletín Oficial de la Comunidad de Madrid</em>, 170, de 18 de julio de 2022. https://www.bocm.es</p>
+
+                    <p>Decreto 65/2022, de 20 de julio, del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo de la Educación Secundaria Obligatoria. <em>Boletín Oficial de la Comunidad de Madrid</em>, 176, de 26 de julio de 2022. https://www.bocm.es</p>
+
+                    <p>Ley 1/2022, de 10 de febrero, Maestra de Libertad de Elección Educativa de la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 36, de 11 de febrero de 2022. https://www.bocm.es</p>
+
+                    <p>Ley Orgánica 2/2006, de 3 de mayo, de Educación. <em>Boletín Oficial del Estado</em>, 106, de 4 de mayo de 2006. https://www.boe.es</p>
+
+                    <p>Ley Orgánica 3/2020, de 29 de diciembre, por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación. <em>Boletín Oficial del Estado</em>, 340, de 30 de diciembre de 2020. https://www.boe.es</p>
+
+                    <p>Orden 130/2023, de 23 de enero, de la Consejería de Educación, Ciencia y Universidades, por la que se regulan aspectos de organización, funcionamiento y evaluación en la Educación Primaria, en la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 24, de 30 de enero de 2023. https://www.bocm.es</p>
+
+                    <p>Orden 460/2023, de 27 de febrero, de la Consejería de Educación, Ciencia y Universidades, por la que se regulan aspectos de organización, funcionamiento y evaluación en la Educación Infantil, en la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 53, de 3 de marzo de 2023. https://www.bocm.es</p>
+
+                    <p>Orden 1190/2021, de 19 de octubre, de la Consejería de Educación, Universidades, Ciencia y Portavocía, por la que se regula la medida de permanencia de un año más en el primer ciclo de la etapa de Educación Infantil en la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 254, de 25 de octubre de 2021. https://www.bocm.es</p>
+
+                    <p>Orden 1712/2023, de 19 de mayo, de la Consejería de Educación, Ciencia y Universidades, por la que se regulan determinados aspectos de organización, funcionamiento y evaluación en la Educación Secundaria Obligatoria. <em>Boletín Oficial de la Comunidad de Madrid</em>, 125, de 26 de mayo de 2023. https://www.bocm.es</p>
+
+                    <p>Orden 2808/2023, de 30 de julio, de la Vicepresidencia, Consejería de Educación y Universidades, por la que se regula la escolarización y la atención a las diferencias individuales del alumnado en centros de Educación Especial y Unidades de Educación Especial en centros ordinarios, así como la escolarización combinada en la Comunidad de Madrid. <em>Boletín Oficial de la Comunidad de Madrid</em>, 184, de 4 de agosto de 2023. https://www.bocm.es</p>
+
+                    <p>Real Decreto 95/2022, de 1 de febrero, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Infantil. <em>Boletín Oficial del Estado</em>, 28, de 2 de febrero de 2022. https://www.boe.es</p>
+
+                    <p>Real Decreto 157/2022, de 1 de marzo, por el que se establecen la ordenación y las enseñanzas mínimas de la Educación Primaria. <em>Boletín Oficial del Estado</em>, 52, de 2 de marzo de 2022. https://www.boe.es</p>
+
+                    <p>Real Decreto 217/2022, de 29 de marzo, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria. <em>Boletín Oficial del Estado</em>, 76, de 30 de marzo de 2022. https://www.boe.es</p>
+                </div>
+
+                <h3>BIBLIOGRAFÍA</h3>
+                
+                <div class="bibliography-box">
+                    <p>Booth, T. y Ainscow, M. (2015). <em>Guía para la educación inclusiva: Desarrollando el aprendizaje y la participación en los centros escolares</em>. FUHEM.</p>
+
+                    <p>Casanova, M. A. (2023). <em>Evaluación y calidad de centros educativos</em> (6.ª ed.). La Muralla.</p>
+
+                    <p>Marchesi, Á., Coll, C. y Palacios, J. (Coords.). (2017). <em>Desarrollo psicológico y educación: Vol. 3. Respuestas educativas a las dificultades de aprendizaje y del desarrollo</em> (2.ª ed.). Alianza Editorial.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><a href="index.html">← Volver al inicio</a></p>
+            <p class="footer-note">Tema actualizado según normativa vigente de la Comunidad de Madrid</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
