@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oposiciones PT Madrid - Portal de Estudio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="theme-toggle" onclick="toggleTheme()" title="Cambiar tema">
+        <span class="theme-icon">🌙</span>
+    </div>
+
+    <header>
+        <div class="container">
+            <h1>📚 Portal de Estudio</h1>
+            <p class="subtitle">Oposiciones Maestro PT - Comunidad de Madrid</p>
+            <p class="specialty">Especialidad: Pedagogía Terapéutica</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number" id="total-temas">25</div>
+                <div class="stat-label">Temas totales</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="temas-estudiados">1</div>
+                <div class="stat-label">Temas estudiados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="progreso">4%</div>
+                <div class="stat-label">Progreso</div>
+            </div>
+        </section>
+
+        <section class="search-section">
+            <input type="text" id="search-input" class="search-input" placeholder="🔍 Buscar tema...">
+        </section>
+
+        <section class="temas-section" id="temas-container">
+            <h2>📖 Temario Disponible</h2>
+            
+            <div class="tema-card" data-tema="3">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 3</span>
+                    <span class="tema-status estudiado">✅ Disponible</span>
+                </div>
+                <h3 class="tema-titulo">El proceso de identificación y valoración de las NEE</h3>
+                <p class="tema-descripcion">
+                    Evaluación psicopedagógica, relación con el currículo, decisiones de escolarización y criterios de promoción
+                </p>
+                <div class="tema-footer">
+                    <a href="tema-03.html" class="btn-primary">Estudiar tema</a>
+                    <button class="btn-secondary" onclick="marcarEstudiado(3)">Marcar como estudiado</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="1">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 1</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">La evolución de la educación especial en Europa</h3>
+                <p class="tema-descripcion">
+                    Historia, conceptos y normativa sobre educación especial y NEE
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="7">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 7</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Los recursos materiales y personales</h3>
+                <p class="tema-descripcion">
+                    Recursos para la atención al alumnado con necesidades educativas especiales
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="9">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 9</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Las adaptaciones curriculares</h3>
+                <p class="tema-descripcion">
+                    Tipos, elaboración y seguimiento de adaptaciones curriculares
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="14">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 14</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Discapacidad auditiva</h3>
+                <p class="tema-descripcion">
+                    Características, evaluación y respuesta educativa
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="16">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 16</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Discapacidad visual</h3>
+                <p class="tema-descripcion">
+                    Características, evaluación y respuesta educativa
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="18">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 18</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Discapacidad motora</h3>
+                <p class="tema-descripcion">
+                    Características, evaluación y respuesta educativa
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+
+            <div class="tema-card" data-tema="20">
+                <div class="tema-header">
+                    <span class="tema-numero">TEMA 20</span>
+                    <span class="tema-status">⏳ Próximamente</span>
+                </div>
+                <h3 class="tema-titulo">Discapacidad intelectual</h3>
+                <p class="tema-descripcion">
+                    Características, evaluación y respuesta educativa
+                </p>
+                <div class="tema-footer">
+                    <button class="btn-disabled" disabled>Próximamente</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>💪 ¡Mucho ánimo con tu preparación!</p>
+            <p class="footer-note">Sitio web de estudio personal - Oposiciones PT Madrid 2025</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
